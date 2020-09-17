@@ -1,0 +1,131 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        
+    </head>
+    <body>
+        <style>
+            body{
+                font-family: tahoma, arial, sans-serif;
+                margin:auto;
+                width: 1024px;
+                text-align: center;
+                padding: 10px 0px;
+            }
+            
+            
+            .medium{
+                margin-left: auto;
+            }
+            
+            .gallery{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                margin-left: 180px;
+                overflow: auto;
+                margin-bottom: 80px;
+                width: 70%;
+            } 
+            
+           
+            
+            .gallery-card button{
+                background: transparent;
+                border: none;
+                outline-style: none;
+            }
+            
+            .rodape{
+                width: 70%;
+                margin-left: 150px;;
+                background-color: yellow;
+                padding: 20px 10px;
+            }
+            
+            .ul-icons{
+                list-style-type: none;
+                padding-left: 0; 
+            }
+            
+            .ul-icons li{
+                display: inline-block;
+                font-size: 2em;
+                color: #49bf9d;
+                padding: 0px 10px;
+            }
+            
+            .rodape a{
+                display: inline;
+            }
+        </style>
+
+
+        <table>
+            <tr>
+                <td valign="top" >
+                    <img src="imgs/topo.jpg" style="border: 0" alt="Banner Design">
+                    <img src="imgs/baner_exemplo.jpg" style="border: 0" alt="Banner">
+                </td>
+            </tr>
+        </table>
+
+        <table style = "margin:auto">
+                <tr>
+                    <td valign="top" >
+                        <img src="imgs/banner-01.jpg"  style="border: 0" alt="Discount!">
+                        <img src="imgs/banner-02.jpg" style="border: 0" alt="Welcome!">
+                    </td>
+                </tr>
+        </table>
+
+            <table style = "margin:auto">
+                <tr>
+                    <td class="gallery-card" valign="top">
+                        <h3>Produto 1</h3>
+                        <img src="imgs/produto-1.jpg" style="border: 0" alt="">
+                        <p> POR APENAS </p>
+                        <h2>R$ 99,99</h2>
+                        <button type="button"><img src="imgs/btn.jpg" style="border: 0" alt=""></button>
+                    </td>
+
+                        <td class="gallery-card" valign="top">
+                            <h3>Produto 2</h3>
+                            <img src="imgs/produto-2.jpg" style="border: 0" alt="">
+                            <p> POR APENAS </p>
+                            <h2>R$ 88,88</h2>
+                            <button type="button"><img src="imgs/btn.jpg" style="border: 0" alt=""></button>
+                        </td>
+
+                        <td class="gallery-card" valign="top">
+                            <h3>Produto 3</h3>
+                            <img src="imgs/produto-3.jpg" style="border: 0" alt="">
+                            <p> POR APENAS </p>
+                            <h2>R$ 77,77</h2>
+                            <button type="button"><img src="imgs/btn.jpg" style="border: 0" alt=""></button>
+                        </td>
+                </tr>
+
+            </table>
+
+            <table class="rodape">
+                <tr>
+                    <td>
+                        <h1>NOS SIGA NAS REDES SOCIAIS</h1>
+                        <ul class="ul-icons">
+                            <li><img src="imgs/face.jpg" style="border: 0" alt=""></li>
+                            <li><img src="imgs/insta.jpg" style="border: 0"></li>
+                            <li><img src="imgs/youtube.jpg" style="border: 0"></li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Caso não queira mais receber este tipo de e-mail, por favor,<a href="index.html">Clique aqui</a> | <a href="index.html">Ver online</a>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+    </body>
+</html>
