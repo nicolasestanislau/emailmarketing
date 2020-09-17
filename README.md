@@ -1,2 +1,3 @@
 # emailmarketing
-criação de um email marketing com as boas práticas de HTML
+criação de um exemplo de email marketing com as boas práticas de HTML
+Usando table e css inline.
